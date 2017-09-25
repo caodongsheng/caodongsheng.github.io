@@ -1,0 +1,108 @@
+
+body{width: 100%;height:100%;font-family: "Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","Heiti SC","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;overflow: hidden;}
+.dada{width: 100%;height:3rem;-background: #000;position: fixed;left: 0;top:0;z-index: 999;}
+.heade{width: 100%;height: 3rem;-background: #fff;-opacity: 0.5;margin: 0 auto;position: absolute;}
+.heade-left{width: 2rem;height: 2rem;border-radius: 50%;overflow: hidden;margin-top:0.6rem;position: absolute;left: 0.5rem;}
+.heade-left img{width: 100%;height: 100%;}
+.heade-right{width: 100%;height:3rem;line-height: 3rem;text-align: center;color: #fff;font-size: 12px;}
+.heade-right a{color: #fff}
+.nav{width: calc(100% - 1rem);height: 1.5rem;background: rgba(255,255,255,0.5);position: fixed;top: 2.6rem;z-index: 1000;display:-webkit-box;-webkit-box-orient:horizontal;padding:0 0.5rem;opacity: 1;}
+
+#box{position: absolute;overflow: hidden;width:100%;height:100%;}
+.hide{display: none;opacity: 0;}
+.nav div{display:block;-webkit-box-flex:1;height: 1.5rem;text-align: center;line-height: 1.5rem;font-size: 0.7rem;}
+.nav .color{color: #fff;}
+.nav ul{display: none;}
+
+.content{width: 100%;-background: #84aca1;padding-top:4rem;overflow: hidden;position:absolute;z-index: 11;}
+.content .title{display: none;}
+/*.bggyw{background: #0f8e83;}
+.bggyw2{background: #4b5b8b;}
+.bggyw3{background: #915a4a;}
+.bggyw4{background: #49829c;}
+.bggyw5{background: #9c936d;}*/
+
+.conimg{width: 7.5rem;height: 7.5rem;border-radius: 50%;overflow: hidden;margin: 0 auto;}
+.conimg img{width: 100%;}
+.heade-right span{display:inline-block;width:0.5rem;height:0.25rem;background:#fff;-webkit-clip-path:polygon(0 0,100% 0,50% 100%,0 0);transition: 1s all ease;}
+.font{line-height: 1.1rem;font-size: 0.7rem;text-align: center;padding: 1rem 1rem 0.5rem;color: #fff;font-weight: 600;}
+.hr{width: 70%;margin: 0 auto;}
+.namep{line-height: 1.8rem;text-align: center;color: #fff;font-size: 0.7rem;}
+.bggyw ul{width: 100%;margin-bottom: 1.5rem;}
+.bggyw ul li{width: 50%;height: 5.5rem;float: left;text-align: center;}
+.bggyw ul li div{width: 2.5rem;height: 2.5rem;border-radius: 50%;background: #27968d;text-align: center;margin: 0 auto;margin-top: 1rem;}
+.bggyw ul li p{line-height: 2.5rem;}
+.bggyw ul li p a{color: #fff;}
+.bggyw ul li div img{width: 1.25rem;height: 1.25rem;margin-top: 0.65rem;}
+.svg{width: 2rem ;height: 2rem;}
+.bggyw p{line-height: 1.3rem;text-align: center;color: #fff;font-size:0.7rem;}
+
+.animation{width: 100%;height:16rem;-background:#000;position: relative;top: -1.4rem;z-index: 10000;}
+.he{width: 100%;height: 16rem;margin: 0 auto;transform: scale(0.9);}
+.skills{position: relative;top:-1.5rem;}
+.skills p{line-height: 1.1rem;text-align: center;color: #fff;font-size:0.7rem;}
+/*渐变*/
+.gradient{width: 13rem;height: 14.5rem;-background: #f2f4f5;border-radius: 0.5rem;margin: 0 auto;border: 1px solid #eee;box-shadow: 0 0 25px rgba(0,0,0,.5);padding: 0.75rem;position: relative;}
+.gradient .show{z-index: 2;display:block}
+.gradientright{-background:#f2f4f5;line-height: 1.5rem;position: absolute;z-index: 1;display: none;}
+.gradientright h4{font-size:0.8rem;color: 33cbfe;}
+.gradientright p{color: #ccc;;}
+.gradientright .li{line-height: 1rem;margin-top: 1rem;color: #5b91aa;}
+
+.bggyw3 ul{display:-webkit-box;-webkit-box-orient:horizontal;margin-top: 1.75rem;}
+.bggyw3 ul li{-webkit-box-flex:1;height: 0.5rem;}
+.bggyw3 ul li span{display:block;width: 0.5rem;height: 0.5rem;background: #623c32;border-radius: 50%;margin: 0 auto;}
+.bggyw3 ul li span.active{background:#af7164;}
+/*旋转*/
+.rotate{width: 12rem;height: 14.25rem;background: #fff;margin: 0 auto;position: relative;top:0.5rem;transform-style:preserve-3d; transform:perspective(800px);transition: 1s all ease;}
+.rotatecontent{width:10.5rem;height:12.75rem;position: absolute;left: 0;top: 0;background: #fff;padding: 0.75rem;}
+.rotatecontent h2{font-size: 0.9rem;text-align: center;line-height: 2rem;color: #5b91aa;}
+.rotatecontent p{color:#282828;font-size: 0.6rem;line-height: 1.2rem;margin-top: 1rem;}
+.href{width: 9rem;height: 1.75rem;background: #fff;border-radius: 0.3rem;border: 1px solid #f5f5f5;margin: 0 auto;margin-top: 1rem;text-align: center;}
+.href img{width: 1rem;margin-top: 0.3rem;}
+.one{transform:translateZ(6rem)}
+.two{transform:scale(-1,1) translateZ(-6rem) ;}
+.three{transform:translateX(6rem) rotateY(90deg) }
+.four{transform: translateX(-6rem) rotateY(90deg) scale(-1,1)}
+
+.rotatebtn {width: 15rem;height: 1.6rem;margin: 0 auto;margin-top:3.1rem;}
+.rotateprev{width: 1.6rem;height: 1.6rem;float: left;background:url(../images/arrow.svg) center 35% no-repeat;background-size: 70%;border-radius: 50%;border: 1px solid #fff;transform: rotate(-90deg)}
+.rotatenext{width: 1.6rem;height: 1.6rem;float: right;background:url(../images/arrow.svg) center 35% no-repeat;background-size: 70%;border-radius: 50%;border: 1px solid #fff;transform: rotate(90deg)}
+
+.bggyw5 ul{display:-webkit-box;-webkit-box-orient:horizontal;padding: 0 1rem;}
+.bggyw5 ul li{-webkit-box-flex:1;height: 2rem;text-align: center;color: red;font-size: 0.9rem;}
+.bggyw5 ul li:nth-child(2){color: #33cbfe;}
+.bggyw5 ul li:nth-child(3){color: #66cc00;}
+.bggyw5 ul li:nth-child(4){color: #fe6633;}
+.Pretendtobesomething p{line-height: 1.75rem;text-align: center;font-size: 0.75rem;color: #fff;}
+
+.foot{width: 11.2rem;margin: 0 auto;display:-webkit-box;-webkit-box-orient:horizontal;margin-top: 2.5rem;margin-bottom: 1.5rem;}
+.foot span{display: block;-webkit-box-flex:1;height: 1.5rem;}
+.foot span a{display:block;width:1.5rem;height: 1.5rem;border-radius: 50%;border: 1px solid #fff;text-align: center;margin: 0 auto;}
+.foot span a img{width: 1rem;height: 1rem;margin-top: 0.3rem;}
+
+
+.footbottom{width: 100%;height: 1px;-background: #756d4d;position: absolute;bottom: 3.5rem}
+.footbottomm{width: 100%;height:3.5rem;position: absolute;z-index: 998;-background: #9c936d;bottom: 0;}
+.footbottomm p{color: #756d4d;text-align: center;line-height: 2rem;}
+.footbottomm p:nth-child(2){line-height: 0.5rem;}
+.positionsanjiao{width:0.75rem ;position: fixed;bottom: 0.2rem;left: 50%;margin-left:-0.37rem;z-index: 1;}
+.positionsanjiao img{width:0.75rem ;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
