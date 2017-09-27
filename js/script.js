@@ -346,7 +346,7 @@ option = {
 			repulsion: asd
 		},
 		data: [{
-			name: '',
+			name: 'js',
 			symbol: 'image://css/img/tou.png',
 			itemStyle: {
 				normal: {
