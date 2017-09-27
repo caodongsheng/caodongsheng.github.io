@@ -30,8 +30,8 @@ body {margin:0 auto;overflow:hidden;}
 .audio{ 
 /*设置音乐显示位置*/
 	width:45px;
-	position:fixed;top:65px;left:94%;
-	z-index:100;
+	position:fixed;top:10px;right:6%;
+	z-index:1000;
 	filter:alpha(opacity=30);  
       -moz-opacity:0.3;  
       -khtml-opacity: 0.3;  

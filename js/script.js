@@ -346,7 +346,7 @@ option = {
 			repulsion: asd
 		},
 		data: [{
-			name: 'js',
+			name: '',
 			symbol: 'image://css/img/tou.png',
 			itemStyle: {
 				normal: {
@@ -493,7 +493,15 @@ option = {
 
 
 dom.setOption(option);
-	
+	var qq_chat = true;
+	function PlayJsAdPopWin() {
+		if (qq_chat) {
+			popwin = window.location.href = 'http://wpa.qq.com/msgrd?V=1&amp;Uin=281135332&amp;Site=在线QQ&amp;Menu=yes';
+					 
+					 //location.href = 'tencent://message/?uin=我们的QQ号码&Site=网站名称&Menu=yes'
+		}
+	};
+	//setTimeout(PlayJsAdPopWin, 1000);
 	
 })
 
