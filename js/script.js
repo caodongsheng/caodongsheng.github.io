@@ -267,243 +267,243 @@ $(function(){
 	
 	
 	/*chart*/
-	var dom = echarts.init(document.getElementById("chart"));
-	var asd=2500;//chart 线长短
-	if(obj.w <= 700){
-		asd=1000;
-	}else{
-		asd=3000;
-	}
-option = {
-	tooltip: {
-		show: false
-	},
-	legend: {
-		x: "center",
-		data: []
-	},
-	animation: false,
-	series: [{
-		categories: [{
-			name: '家人',
-			itemStyle: {
-				normal: {
-					color: "#009800",
-				}
-			}
-		}, {
-			name: '朋友',
-			itemStyle: {
-				normal: {
-					color: "#4592FF",
-				}
-			}
-		}],
-		type: 'graph',
-		layout: 'force',
-		symbol: "circle",
-		symbolSize: 50,
-		roam: false, //禁止用鼠标滚轮缩小放大效果
-		edgeSymbol: ['circle', 'arrow'],
-		edgeSymbolSize: [0, 10],
-		// 连接线上的文字
-		focusNodeAdjacency: true, //划过只显示对应关系
-		edgeLabel: {
-			normal: {
-				show: true,
-				textStyle: {
-					fontSize: 10
-				},
-				formatter: "{c}"
-			}
-		},
-		categories: [{
-			name: '家人ss',
-			itemStyle: {
-				normal: {
-					color: "#009800",
-				}
-			}
-		}, {
-			name: '朋友dddd',
-			itemStyle: {
-				normal: {
-					color: "#4592FF",
-				}
-			}
-		}],
-		lineStyle: {
-			normal: {
-				opacity: 1,
-				width: 2,
-				curveness: 0.5
-			}
-		},
-		// 圆圈内的文字
-		label: {
-			normal: {
-				show: true
-			}
-		},
-		force: {
-			repulsion: asd
-		},
-		data: [{
-			name: 'js',
-			symbol: 'image://css/img/tou.png',
-			itemStyle: {
-				normal: {
-					color: '#f90', //圆点的颜色
-					label: {
-						//position: 'bottom',
-						textStyle: {
-							color: '#f90',
+//	var dom = echarts.init(document.getElementById("chart"));
+//	var asd=2500;//chart 线长短
+//	if(obj.w <= 700){
+//		asd=1000;
+//	}else{
+//		asd=3000;
+//	}
+//option = {
+//	tooltip: {
+//		show: false
+//	},
+//	legend: {
+//		x: "center",
+//		data: []
+//	},
+//	animation: false,
+//	series: [{
+//		categories: [{
+//			name: '家人',
+//			itemStyle: {
+//				normal: {
+//					color: "#009800",
+//				}
+//			}
+//		}, {
+//			name: '朋友',
+//			itemStyle: {
+//				normal: {
+//					color: "#4592FF",
+//				}
+//			}
+//		}],
+//		type: 'graph',
+//		layout: 'force',
+//		symbol: "circle",
+//		symbolSize: 50,
+//		roam: false, //禁止用鼠标滚轮缩小放大效果
+//		edgeSymbol: ['circle', 'arrow'],
+//		edgeSymbolSize: [0, 10],
+//		// 连接线上的文字
+//		focusNodeAdjacency: true, //划过只显示对应关系
+//		edgeLabel: {
+//			normal: {
+//				show: true,
+//				textStyle: {
+//					fontSize: 10
+//				},
+//				formatter: "{c}"
+//			}
+//		},
+//		categories: [{
+//			name: '家人ss',
+//			itemStyle: {
+//				normal: {
+//					color: "#009800",
+//				}
+//			}
+//		}, {
+//			name: '朋友dddd',
+//			itemStyle: {
+//				normal: {
+//					color: "#4592FF",
+//				}
+//			}
+//		}],
+//		lineStyle: {
+//			normal: {
+//				opacity: 1,
+//				width: 2,
+//				curveness: 0.5
+//			}
+//		},
+//		// 圆圈内的文字
+//		label: {
+//			normal: {
+//				show: true
+//			}
+//		},
+//		force: {
+//			repulsion: asd
+//		},
+//		data: [{
+//			name: 'js',
+//			symbol: 'image://css/img/tou.png',
+//			itemStyle: {
+//				normal: {
+//					color: '#f90', //圆点的颜色
+//					label: {
+//						//position: 'bottom',
+//						textStyle: {
+//							color: '#f90',
+//
+//						}
+//					}
+//				}
+//			},
+//
+//		}, {
+//			name: '节点2',
+//			category: 0.5,
+//			itemStyle: {
+//				normal: {
+//					color: '#090',
+//
+//				},
+//				emphasis: {
+//					color: "#000"
+//				}
+//			}
+//		}, {
+//			name: 'node.js',
+//			category: 0,
+//			draggable: true,
+//		}, {
+//			name: 'jquery',
+//			category: 0,
+//			draggable: true,
+//		}, {
+//			name: 'angular',
+//			category: 0,
+//			draggable: true,
+//		}, {
+//			name: 'echart',
+//			category: 0,
+//			draggable: true,
+//		}, {
+//			name: 'zepto',
+//			category: 0,
+//			draggable: true,
+//		}, {
+//			name: 'webpack',
+//			category: 0,
+//			draggable: true,
+//		}, {
+//			name: 'git',
+//			category: 0,
+//			draggable: true,
+//		}, {
+//			name: 'gulp',
+//			category: 0,
+//			draggable: true,
+//		}, {
+//			name: 'bootstrap',
+//			category: 0,
+//			draggable: true,
+//		}, {
+//			name: 'vue',
+//			category: 0,
+//			draggable: true,
+//		},{
+//			name: 'element',
+//			category: 0,
+//			draggable: true,
+//		},{
+//			name: '小程序',
+//			category: 0,
+//			draggable: true,
+//		}],
+//		links: [{
+//			source: 'js',
+//			target: '节点2',
+//			value: "",
+//			lineStyle: {
+//				normal: {
+//					color: '#38f',
+//					curveness: 0 // 线的弯曲度 0-1之间 越大则歪曲度更大
+//				}
+//			},
+//			label: {
+//				normal: {
+//					textStyle: {
+//						color: '#07ac72'
+//					}
+//				}
+//			}
+//		}, {
+//			source: 'js',
+//			target: 'node.js',
+//			value: ""
+//		}, {
+//			source: 'js',
+//			target: 'jquery',
+//			value: ""
+//		}, {
+//			source: 'js',
+//			target: 'angular',
+//			value: ""
+//		}, {
+//			source: 'js',
+//			target: 'echart',
+//			value: ""
+//		}, {
+//			source: 'js',
+//			target: 'zepto',
+//			value: ""
+//		}, {
+//			source: 'js',
+//			target: 'webpack',
+//			value: ""
+//		}, {
+//			source: 'js',
+//			target: 'git',
+//			value: ""
+//		}, {
+//			source: 'js',
+//			target: 'gulp',
+//			value: ""
+//		}, {
+//			source: 'js',
+//			target: 'bootstrap',
+//			value: ""
+//		}, {
+//			source: 'js',
+//			target: 'vue',
+//			value: ""
+//		},{
+//			source: 'js',
+//			target: 'element',
+//			value: ""
+//		}, {
+//			source: 'js',
+//			target: '小程序',
+//			value: ""
+//		}]
+//	}]
+//};
 
-						}
-					}
-				}
-			},
 
-		}, {
-			name: '节点2',
-			category: 0.5,
-			itemStyle: {
-				normal: {
-					color: '#090',
-
-				},
-				emphasis: {
-					color: "#000"
-				}
-			}
-		}, {
-			name: 'node.js',
-			category: 0,
-			draggable: true,
-		}, {
-			name: 'jquery',
-			category: 0,
-			draggable: true,
-		}, {
-			name: 'angular',
-			category: 0,
-			draggable: true,
-		}, {
-			name: 'echart',
-			category: 0,
-			draggable: true,
-		}, {
-			name: 'zepto',
-			category: 0,
-			draggable: true,
-		}, {
-			name: 'webpack',
-			category: 0,
-			draggable: true,
-		}, {
-			name: 'git',
-			category: 0,
-			draggable: true,
-		}, {
-			name: 'gulp',
-			category: 0,
-			draggable: true,
-		}, {
-			name: 'bootstrap',
-			category: 0,
-			draggable: true,
-		}, {
-			name: 'vue',
-			category: 0,
-			draggable: true,
-		},{
-			name: 'element',
-			category: 0,
-			draggable: true,
-		},{
-			name: '小程序',
-			category: 0,
-			draggable: true,
-		}],
-		links: [{
-			source: 'js',
-			target: '节点2',
-			value: "",
-			lineStyle: {
-				normal: {
-					color: '#38f',
-					curveness: 0 // 线的弯曲度 0-1之间 越大则歪曲度更大
-				}
-			},
-			label: {
-				normal: {
-					textStyle: {
-						color: '#07ac72'
-					}
-				}
-			}
-		}, {
-			source: 'js',
-			target: 'node.js',
-			value: ""
-		}, {
-			source: 'js',
-			target: 'jquery',
-			value: ""
-		}, {
-			source: 'js',
-			target: 'angular',
-			value: ""
-		}, {
-			source: 'js',
-			target: 'echart',
-			value: ""
-		}, {
-			source: 'js',
-			target: 'zepto',
-			value: ""
-		}, {
-			source: 'js',
-			target: 'webpack',
-			value: ""
-		}, {
-			source: 'js',
-			target: 'git',
-			value: ""
-		}, {
-			source: 'js',
-			target: 'gulp',
-			value: ""
-		}, {
-			source: 'js',
-			target: 'bootstrap',
-			value: ""
-		}, {
-			source: 'js',
-			target: 'vue',
-			value: ""
-		},{
-			source: 'js',
-			target: 'element',
-			value: ""
-		}, {
-			source: 'js',
-			target: '小程序',
-			value: ""
-		}]
-	}]
-};
-
-
-dom.setOption(option);
-	var qq_chat = true;
-	function PlayJsAdPopWin() {
-		if (qq_chat) {
-			popwin = window.location.href = 'http://wpa.qq.com/msgrd?V=1&amp;Uin=281135332&amp;Site=在线QQ&amp;Menu=yes';
-					 
-					 //location.href = 'tencent://message/?uin=我们的QQ号码&Site=网站名称&Menu=yes'
-		}
-	};
+//	dom.setOption(option);
+//	var qq_chat = true;
+//	function PlayJsAdPopWin() {
+//		if (qq_chat) {
+//			popwin = window.location.href = 'http://wpa.qq.com/msgrd?V=1&amp;Uin=281135332&amp;Site=在线QQ&amp;Menu=yes';
+//					 
+//					 //location.href = 'tencent://message/?uin=我们的QQ号码&Site=网站名称&Menu=yes'
+//		}
+//	};
 	//setTimeout(PlayJsAdPopWin, 1000);
 	
 })

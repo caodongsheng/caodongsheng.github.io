@@ -92,3 +92,7 @@ body {margin:0 auto;overflow:hidden;}
 	z-index:20;
 
 	}
+	
+#div1{height:400px;width:450px; position:relative; margin:10px auto;}
+#div1 a{position:absolute;top:0px;left:0px;font-weight:bold;padding:3px 6px; color:black; text-decoration: none;}
+#div1 a:hover{border:1px solid #eee;background:#ccc;border-radius:5px;}
