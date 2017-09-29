@@ -22,9 +22,7 @@ $(function(){
 	    console.log('滑了')
 	    event.preventDefault();
 	});
-	//默认隐藏nav
-	$('.nav').fadeOut(500);
-	$('#navsan').css({'transform':'rotate(180deg)'})
+	
 	var obj={};
 	obj.y=0;//旋转deg
 	obj.h=0;//屏幕高
@@ -40,6 +38,9 @@ $(function(){
 		$('.content').css({'height':(innerHeight-4*obj.fontsize)+'px',"width":innerWidth});
 		var aLi=nav.getElementsByTagName('div');
 		// ?????????????????????????
+		//默认隐藏nav
+		$('.nav').fadeOut(500);
+		$('#navsan').css({'transform':'rotate(180deg)'})
 	}else{
 		$('.content').css({'height':(innerHeight-80)+'px',"width":innerWidth});
 		var aLi=nav.getElementsByTagName('li');
