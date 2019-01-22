@@ -30,5 +30,9 @@ html,body{
     margin: 0;padding: 0;
     box-sizing: border-box;
 }
-
+button{
+    outline: none;
+    background-color:transparent;
+    border: 1px solid transparent;
+}
 </style>

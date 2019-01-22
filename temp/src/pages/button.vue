@@ -1,6 +1,6 @@
 <template lang="html">
-    <div class="">
-        <gbutton></gbutton>
+    <div class="pad">
+        <gbutton>按钮</gbutton>
     </div>
 </template>
 
@@ -14,5 +14,8 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
+    .pad{
+        padding:30px 0 0 50px;
+    }
 </style>

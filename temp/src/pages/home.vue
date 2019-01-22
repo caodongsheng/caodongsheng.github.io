@@ -1,6 +1,6 @@
 <template>
   <div class="box">
-
+      <router-link to="/angular">word</router-link>
       <icon-nav></icon-nav>
       <float-foll></float-foll>
       <div class="asd">
