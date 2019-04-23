@@ -1,7 +1,10 @@
 <template lang="html">
     <div class="box">
         <button type="button" :class="['button',posi]">
-            <slot></slot>
+            <div class="icon">
+                <slot></slot>
+            </div>
+            <span></span>
         </button>
     </div>
 </template>
@@ -42,6 +45,16 @@ export default {
         }
         &:active{
             background: $buttonActiveBg;
+        }
+        .icon{
+            
+        }
+        span{
+            width: 2px;
+            height: 2px;
+            background: #000;
+            display:inline-block;
+            vertical-align: middle;
         }
     }
 </style>

@@ -12,6 +12,8 @@ import { routeMapAdd } from './unit/router_unit'
 import store from './store'
 
 import './scss/index.scss'
+
+
 /* eslint-disable no-new */
 routeMapAdd()
 new Vue({
