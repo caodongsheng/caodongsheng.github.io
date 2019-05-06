@@ -34,8 +34,8 @@
 			<el-table-column prop="addr" label="备注" min-width="180" sortable>
 			</el-table-column>
 			<el-table-column label="操作" width="150">
-				<template >
-					<el-button size="small" @click="handleEdit(scope.$index, scope.row)">编辑</el-button>
+				<template slot-scope="scope">
+					<el-button size="small" @click="handleEdit( scope.$index, scope.row)">编辑</el-button>
 					<el-button type="danger" size="small" @click="handleDel(scope.$index, scope.row)">删除</el-button>
 				</template>
 			</el-table-column>
@@ -220,6 +220,7 @@
 			},
 			//显示编辑界面
 			handleEdit: function (index, row) {
+				console.log('1111111',index)
 				this.editFormVisible = true;
 				this.editForm = Object.assign({}, row);
 			},
