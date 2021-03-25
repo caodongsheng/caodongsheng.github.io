@@ -18,7 +18,7 @@
     "analyz": "cross-env NODE_ENV=production npm_config_report=true npm run build:prod"
   },
   "dependencies": {
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "babel-polyfill": "^6.26.0",
     "better-scroll": "^1.11.1",
     "clipboard": "^2.0.1",
