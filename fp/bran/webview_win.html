@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+		
+	</head>
+	<style>
+        #aui-header{
+    width:100%;
+
+    background-color:#333333
+    }
+	</style>
+	<body>
+		<div class="aui-bar aui-bar-nav aui-bar-info" id="aui-header">
+			<a class="aui-btn aui-btn-info aui-pull-left" tapmode onclick="api.closeWin()"> <span class="aui-iconfont aui-icon-left"></span> </a>
+			<div class="aui-title" id="title">详细内容</div>
+			<!--<a class="aui-btn aui-btn-info aui-pull-right" tapmode onclick="buildSearchBar();" id="search"> <span class="aui-iconfont aui-icon-search"></span> </a>-->
+		</div>
+		<div class="content"></div>
+		<script>
+			apiready = function() {
+				var newsPath = api.pageParam.url;
+				var name = api.pageParam.title;
+				if(name){
+					$("#title").text(name);
+				}
+				
+             	api.openFrame({
+					name : 'detail-con',
+					url : newsPath,
+					bgColor: '#FFFFFF',
+					rect : {
+						x : 0,
+						y : 25,
+						w : 'auto',
+						h : 'auto'
+					},
+					reload:true,
+					bounces:false,
+					showProgress : 'true'
+				});
+
+			}
+		</script>
+	</body>
+</html>

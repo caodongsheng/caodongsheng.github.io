@@ -1,0 +1,21 @@
+<svg id="用户管理_未选中_" data-name="用户管理（未选中）" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #bfcbda;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #bfcbda;
+        stroke-width: 1px;
+      }
+    </style>
+  </defs>
+  <path id="形状_5" data-name="形状 5" class="cls-1" d="M5.293,8.333H8.707A5.23,5.23,0,0,1,14,13.5V12.833C14,13.957,11.63,14,8.707,14H5.293C2.369,14,0,14,0,12.833V13.5A5.23,5.23,0,0,1,5.293,8.333h0Z"/>
+  <path id="形状_5_拷贝" data-name="形状 5 拷贝" class="cls-2" d="M7,0A4,4,0,1,1,3.013,4,3.994,3.994,0,0,1,7,0H7Z"/>
+</svg>

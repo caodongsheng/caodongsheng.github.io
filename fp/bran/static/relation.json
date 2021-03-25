@@ -1,0 +1,473 @@
+{
+	"recipients":[
+    {
+      "value": "01",
+      "name": "本人"
+    },
+    {
+      "value": "12",
+      "name": "管理员代发"
+    },
+    {
+      "value": "02",
+      "name": "我帮扶的贫困户"
+    },
+    {
+      "value": "03",
+      "name": "我认识的贫困户"
+    },
+    {
+      "value": "04",
+      "name": "儿子"
+    },
+    {
+      "value": "05",
+      "name": "女儿"
+    },
+    {
+      "value": "06",
+      "name": "亲戚"
+    },
+    {
+      "value": "07",
+      "name": "朋友"
+    },
+    {
+      "value": "08",
+      "name": "丈夫"
+    },
+    {
+      "value": "09",
+      "name": "妻子"
+    },
+    {
+      "value": "10",
+      "name": "父亲"
+    },
+    {
+      "value": "11",
+      "name": "母亲"
+    }
+  ],
+	"certifier":[
+        {
+            "id": "1",
+            "value": "1",
+            "name": "我帮扶的"
+        },
+        {
+            "id": "2",
+            "value": "2",
+            "name": "我认识的"
+        },
+        {
+            "id": "3",
+            "value": "3",
+            "name": "儿子"
+        },
+        {
+            "id": "4",
+            "value": "4",
+            "name": "女儿"
+        },
+        {
+            "id": "5",
+            "value": "5",
+            "name": "丈夫"
+        },
+        {
+            "id": "6",
+            "value": "6",
+            "name": "妻子"
+        },
+        {
+            "id": "7",
+            "value": "7",
+            "name": "父亲"
+        },
+        {
+            "id": "8",
+            "value": "8",
+            "name": "母亲"
+        },
+        {
+            "id": "9",
+            "value": "9",
+            "name": "亲戚"
+        },
+        {
+            "id": "10",
+            "value": "10",
+            "name": "朋友"
+        },
+        {
+            "id": "11",
+            "value": "11",
+            "name": "其他"
+        }
+    ],
+    "DemandTypeEnum ":[
+        {
+            "code": "1",
+            "value": "教育"
+        },
+        {
+            "code": "2",
+            "value": "医疗"
+        },
+        {
+            "code": "3",
+            "value": "住房"
+        },
+        {
+            "code": "4",
+            "value": "物品"
+        },
+        {
+            "code": "5",
+            "value": "民生"
+        }
+    ],
+    "HelpPatternEnum" :[
+        {
+            "code": 1,
+            "value": "面对面"
+        },
+        {
+            "code": 2,
+            "value": "快递"
+        }
+    ],
+    "PayFlagEnum ":[
+        {
+            "code": 1,
+            "value": "成功"
+        },
+        {
+            "code": 0,
+            "value": "失败"
+        },
+        {
+            "code": 2,
+            "value": "未支付"
+        }
+    ],
+    "TopStatusEnum ":[
+        {
+            "code": 2,
+            "value": "置顶"
+        },
+        {
+            "code": 1,
+            "value": "正常"
+        },
+        {
+            "code": 0,
+            "value": "置底"
+        }
+    ],
+    "WithdrawConditionEnum":[
+        {
+            "code": 1,
+            "value": "筹满"
+        },
+        {
+            "code": 2,
+            "value": "到期"
+        },
+        {
+            "code": 3,
+            "value": "提前"
+        }
+    ],
+    "hot_search_word":[
+        {
+            "id": "扶贫",
+            "name": "扶贫"
+        },
+        {
+            "id": "教育",
+            "name": "教育"
+        },
+        {
+            "id": "医疗",
+            "name": "医疗"
+        }
+    ],
+    "app_type":[
+        {
+            "id": "1",
+            "name": "办公类"
+        },
+        {
+            "id": "2",
+            "name": "业务类"
+        }
+    ],
+    "work_Experience":[
+        {
+            "id": "1",
+            "name": "1年"
+        },
+        {
+            "id": "2",
+            "name": "2年"
+        },
+        {
+            "id": "3",
+            "name": "3年"
+        },
+        {
+            "id": "4",
+            "name": "4年"
+        },
+        {
+            "id": "5",
+            "name": "5年"
+        },
+        {
+            "id": "6",
+            "name": "6年"
+        },
+        {
+            "id": "7",
+            "name": "7年"
+        },
+        {
+            "id": "8",
+            "name": "8年"
+        },
+        {
+            "id": "9",
+            "name": "9"
+        }
+    ],
+    "Domain_manage":[
+        {
+            "id": "1",
+            "name": "疾病救助"
+        },
+        {
+            "id": "2",
+            "name": "扶贫/救灾"
+        },
+        {
+            "id": "3",
+            "name": "教育/助学"
+        },
+        {
+            "id": "4",
+            "name": "环境/保护/动物"
+        },
+        {
+            "id": "5",
+            "name": "其他"
+        }
+    ],
+    "Education_level":[
+        {
+            "id": "1",
+            "name": "小学"
+        },
+        {
+            "id": "2",
+            "name": "初中"
+        },
+        {
+            "id": "3",
+            "name": "高中"
+        },
+        {
+            "id": "4",
+            "name": "专科"
+        },
+        {
+            "id": "5",
+            "name": "本科"
+        },
+        {
+            "id": "6",
+            "name": "硕士"
+        },
+        {
+            "id": "7",
+            "name": "博士"
+        }
+    ],
+    "scale_manage":[
+        {
+            "id": "1",
+            "name": "100人以下"
+        },
+        {
+            "id": "2",
+            "name": "100-500人"
+        },
+        {
+            "id": "3",
+            "name": "500-1000人"
+        },
+        {
+            "id": "4",
+            "name": "1000人以上"
+        }
+    ],
+    "salary_manage":[
+        {
+            "id": "1",
+            "name": "500"
+        },
+        {
+            "id": "2",
+            "name": "1000"
+        },
+        {
+            "id": "3",
+            "name": "1500"
+        },
+        {
+            "id": "4",
+            "name": "2000"
+        },
+        {
+            "id": "5",
+            "name": "9000"
+        }
+    ],
+    "raiseMoney_limit":[
+        {
+            "id": "1",
+            "name": "50万以下"
+        },
+        {
+            "id": "2",
+            "name": "50-100万"
+        },
+        {
+            "id": "3",
+            "name": "100-200万"
+        },
+        {
+            "id": "4",
+            "name": "200-1000万"
+        },
+        {
+            "id": "5",
+            "name": "1000万以上"
+        }
+    ],
+    "DemandStatusEnum":[
+        {
+            "code": 0,
+            "value": "草稿"
+        },
+        {
+            "code": 1,
+            "value": "待审核"
+        },
+        {
+            "code": 2,
+            "value": "审核不通过"
+        },
+        {
+            "code": 3,
+            "value": "帮扶中"
+        },
+        {
+            "code": 4,
+            "value": "等待提现"
+        },
+        {
+            "code": 5,
+            "value": "提现中"
+        },
+        {
+            "code": 6,
+            "value": "待发送"
+        },
+        {
+            "code": 7,
+            "value": "已发送"
+        },
+        {
+            "code": 8,
+            "value": "发布超时"
+        },
+        {
+            "code": 9,
+            "value": "帮扶失败"
+        },
+        {
+            "code": 10,
+            "value": "已关闭"
+        },
+        {
+            "code": 11,
+            "value": "帮扶成功"
+        }
+    ],
+    "PayTypeEnum":[
+        {
+            "code": 1,
+            "value": "微信端"
+        },
+        {
+            "code": 2,
+            "value": "APP端"
+        },
+        {
+            "code": 3,
+            "value": "银联"
+        }
+    ],
+    "HtsStatusenums":[
+        {
+            "code": "",
+            "value": "全部"
+        },
+        {
+            "code": "01",
+            "value": "待审核"
+        },
+        {
+            "code": "02",
+            "value": "审核不通过"
+        }
+    ],
+    "UserLeavelEnum":[
+        {
+            "code": "",
+            "value": "全部"
+        },
+        {
+            "code": 1,
+            "value": "贫困户"
+        },
+        {
+            "code": 0,
+            "value": "非贫困户"
+        }
+    ],
+    "UserOfficerEnum":[
+      {
+        "code": 5,
+        "value": "村级管理员"
+      },
+      {
+        "code": 4,
+        "value": "乡级管理员"
+      },
+      {
+        "code": 3,
+        "value": "县级管理员"
+      },
+      {
+        "code": 2,
+        "value": "市级管理员"
+      },
+      {
+        "code": 1,
+        "value": "省级管理员"
+      }
+    ]
+}
